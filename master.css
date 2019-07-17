@@ -1,0 +1,19 @@
+*{
+  margin:0 auto;
+  padding:0;
+  box-sizing: border-box;
+}
+.box-griglia{
+  max-width:300px;
+  min-height:300px;
+  background-color:red;
+}
+.riga{
+  display: flex;
+}
+.box-quadrato{
+  width:calc(100%/8);
+  height:37.5px;
+  border:1px solid black;
+  background-color:white;
+}
